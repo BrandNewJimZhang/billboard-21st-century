@@ -14,8 +14,8 @@ class SpotifyClient:
         - client_id: Your Spotify Application's Client ID
         - client_secret: Your Spotify Application's Client Secret
         """
-        self.client_id = '83da75dc39ac4c8b96e443125017d98a'
-        self.client_secret = '1c8ec73a1411435fb4bb8db67270c068'
+        self.client_id = '<your client id here>'
+        self.client_secret = '<your client secret here>'
         self.auth_url = "https://accounts.spotify.com/api/token"
         self.access_token = None
         self.headers = None

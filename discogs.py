@@ -45,7 +45,7 @@ class DiscogQuerier:
         }
 
 # Example usage
-user_token = 'SNFCzGHyTlSbNdNhGbqANElfnDSOlNSPOLBBNuZE'
+user_token = '<your user token here>'
 
 if __name__ == '__main__':
     querier = DiscogQuerier(user_token)
